@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.mobile-menu{
+    display:block;
+    width:100%;
+    background-color: aquamarine;
+    line-height: 1.6em;
+    font-weight: 400;
+    text-align: center;
+    position:relative;
+    color:aliceblue
+}
+.mobile-menu ul{
+    list-style-type: none;
+    margin:0 auto;
+    padding-left:0;
+    width:100%;
+    position:absolute;
+    background-color: blue;
+
+}
+.mobile-menu li{
+    display:inline-block;
+    color:blueviolet;
+}
+.mobile-menu li a{
+    display: inline-block;
+    min-width: 140px;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    color:brown
+    
+}
